@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>lan_chat</title>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box"></div>
+        <div class="msgInput-container">
+            <input id="msgInput" type="text" placeholder="Type a message..." />
+            <button onclick="sendMessage()" id="msgButton" type="button">Send</button>
+        </div>
+    </div>
+</body>
+</html>
