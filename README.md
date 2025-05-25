@@ -18,7 +18,7 @@ A web-based real-time chat application for local networks.
   - **`index.html`** - Main HTML file for the chat interface.  
   - **`style.css`** - CSS file for styling the application.  
   - **`script.js`** - JavaScript file for front-end logic.  
-- **`server.js`** - The backend Node.js server file.  
+- **`server.js`** - The express and socketio server file.  
 - **`package.json`** - Manages project dependencies and metadata.  
 - **`.gitignore`** - Excludes `node_modules` and other unnecessary files.  
 - **`README.md`** - Project documentation and instructions.  
